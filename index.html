@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Personnelle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="ico.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <h1>Akré Jacques Kevin N'Doufou </h1>
+        <p>Développeur Web Junior</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">À propos de moi</a></li>
+            <li><a href="#passion">Ma passion</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je m'appelle N'Doufou Akré Jacques Kevin,
+            informaticien passionné par la programmation et les nouvelles technologies.
+            Je suis un développeur web passionné par la création d'expériences numériques innovantes. Mon parcours m'a
+            permis d'acquérir des compétences variées dans le développement web.</p>
+
+        <div class="skill-list">
+            <span class="skill-item">HTML</span>
+            <span class="skill-item">CSS</span>
+            <span class="skill-item">JavaScript</span>
+            <span class="skill-item">PHP</span>
+        </div>
+
+        <button onclick="showMessage('about')">En savoir plus</button>
+    </section>
+
+    <section id="passion">
+        <h2>Ma passion</h2>
+        <p>Ma plus grande passion est le développement web. J'aime particulièrement créer des interfaces utilisateur
+            intuitives et esthétiques qui améliorent l'expérience des utilisateurs.</p>
+        <button onclick="showMessage('passion')">Découvrir plus</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>N'hésitez pas à me contacter pour discuter de projets ou simplement échanger sur le développement web.</p>
+        <button onclick="showMessage('contact')">Me contacter</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Ma Page Personnelle</p>
+    </footer>
+
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
+
+
