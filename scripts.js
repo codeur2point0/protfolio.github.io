@@ -1,3 +1,8 @@
+// Fonction pour basculer le menu
+function toggleMenu() {
+    const navLinks = document.querySelector('nav ul');  // Sélectionne le menu
+    navLinks.classList.toggle('active');  // Ajouter ou supprimer la classe 'active'
+}
 
 function showMessage(section) {
     const titles = {
