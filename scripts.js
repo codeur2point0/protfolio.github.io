@@ -1,3 +1,6 @@
+
+
+
 // Fonction pour basculer le menu
 function toggleMenu() {
     const navLinks = document.querySelector('nav ul');  // Sélectionne le menu
