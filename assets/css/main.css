@@ -1174,6 +1174,66 @@ section,
   border: 2px solid var(--accent-color);
 }
 
+/* Skills Section */
+.resume .skills-section {
+  margin-bottom: 25px;
+  padding: 20px;
+  background: var(--surface-color);
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+}
+
+.resume .skills-section h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.resume .skill-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.resume .skill-item:last-child {
+  margin-bottom: 0;
+}
+
+.resume .skill-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--default-color);
+  min-width: 140px;
+  flex-shrink: 0;
+}
+
+.resume .skill-bar {
+  flex: 1;
+  height: 8px;
+  background: var(--surface-hover);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.resume .skill-progress {
+  height: 100%;
+  background: var(--gradient-primary);
+  border-radius: 4px;
+  transition: width 1s ease;
+}
+
+.resume .skill-percent {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-color);
+  min-width: 35px;
+  text-align: right;
+}
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
